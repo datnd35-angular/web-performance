@@ -36,6 +36,6 @@
 ## Request blocking
 
 ## npm
-- https://bundlephobia.com/ (check tree sharking và size trước khi install)
+- https://bundlephobia.com (check tree sharking và size trước khi install)
 
 ## Browser support
