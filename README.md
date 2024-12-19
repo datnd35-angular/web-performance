@@ -15,8 +15,8 @@
 
 ## Cache 
 ***áp dụng cơ chế CDN***
-    - Cache trêb máy tính local
-    - sử dụng ***IndexDB***
+- Cache trêb máy tính local
+- sử dụng ***IndexDB***
       
 ## Wait (xử lý bất đồng bộ)
 ***1. Async + Defer***
