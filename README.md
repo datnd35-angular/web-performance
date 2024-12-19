@@ -1,5 +1,7 @@
 # I. Kỹ thuật
 
+[Video](https://www.youtube.com/watch?v=WE2N07bd8ro&t=315s)
+
 ## Size
 
 ***1. Tree shaking***
@@ -34,5 +36,6 @@
 ## Request blocking
 
 ## npm
+- https://bundlephobia.com/ (check tree sharking và size trước khi install)
 
 ## Browser support
