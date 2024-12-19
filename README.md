@@ -27,7 +27,7 @@
 
 ***4. Preload, Prefretch***
 
-# I. Công cụ
+# II. Công cụ
 
 ## Lighthouse
 
