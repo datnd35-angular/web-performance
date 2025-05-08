@@ -40,17 +40,15 @@
 ### Browser support
 
 
-
-
 # [Video 2](https://www.youtube.com/watch?v=KUdqbIHn8Ic)
 
 ***Thời gian tải trang (loading time) và tốc độ giao diện người dùng (UI speed). Đây là hai yếu tố chính quyết định một ứng dụng web có "nhanh" hay không.***
 
-## Web performance gồm hai phần chính:
+## Web performance tập trung vào 2 điểm chính:
 
-Thời gian tải trang (Loading Time): ảnh hưởng đến trải nghiệm ban đầu và tỷ lệ chuyển đổi (conversion).
+**Thời gian tải trang (Loading Time)**: ảnh hưởng đến trải nghiệm ban đầu và tỷ lệ chuyển đổi (conversion).
 
-Tốc độ UI (UI Speed): quan trọng cho ứng dụng nhiều tương tác như Figma, Google Sheets...
+**Tốc độ UI (UI Speed)**: quan trọng cho ứng dụng nhiều tương tác như Figma, Google Sheets...
 
 ## 2. Khi nào ưu tiên loading time?
 
@@ -66,9 +64,9 @@ Số lượng người dùng lớn.
 
 Ứng dụng thao tác nhiều (Figma, Canva).
 
-Thời gian phiên làm việc dài.
+Thời gian phiên làm việc dài. Độ trễ dù chỉ 100–200ms mỗi thao tác, nhân với hàng ngàn tương tác, sẽ tạo ra trải nghiệm rất tệ.
 
-Ứng dụng B2B nơi hiệu suất ảnh hưởng trực tiếp đến hiệu quả công việc.
+Ứng dụng B2B nơi hiệu suất ảnh hưởng trực tiếp đến hiệu quả công việc. (ứng dụng doanh nghiệp (Business-to-Business) mà người dùng sử dụng để làm việc hàng ngày, và mỗi giây trễ hay giao diện chậm đều ảnh hưởng trực tiếp đến năng suất, chi phí, và hiệu quả công việc của doanh nghiệp.)
 
 ## 4. Các chỉ số quan trọng:
 
