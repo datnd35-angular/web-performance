@@ -1,8 +1,7 @@
-# I. Kỹ thuật
+# [Video 1](https://www.youtube.com/watch?v=WE2N07bd8ro&t=315s)
+## I. Kỹ thuật
 
-[Video](https://www.youtube.com/watch?v=WE2N07bd8ro&t=315s)
-
-## Size
+### Size
 
 ***1. Tree shaking***
 
@@ -13,12 +12,12 @@
 ***4. Compress (nén)***
 - Gzip
 
-## Cache 
+### Cache 
 ***áp dụng cơ chế CDN***
 - Cache trêb máy tính local
 - sử dụng ***IndexDB***
       
-## Wait (xử lý bất đồng bộ)
+### Wait (xử lý bất đồng bộ)
 ***1. Async + Defer***
 
 ***2. Lazy loading***
@@ -27,33 +26,33 @@
 
 ***4. Preload, Prefretch***
 
-# II. Công cụ
+## II. Công cụ
 
-## Lighthouse
+### Lighthouse
 
-## Coverage 
+### Coverage 
 
-## Request blocking
+### Request blocking
 
-## npm
+### npm
 - https://bundlephobia.com (check tree sharking và size trước khi install)
 
-## Browser support
+### Browser support
 
 
 
 
-# [link video](https://www.youtube.com/watch?v=KUdqbIHn8Ic)
+# [Video 2](https://www.youtube.com/watch?v=KUdqbIHn8Ic)
 
 ***Thời gian tải trang (loading time) và tốc độ giao diện người dùng (UI speed). Đây là hai yếu tố chính quyết định một ứng dụng web có "nhanh" hay không.***
 
-📌 1. Web performance gồm hai phần chính:
+## Web performance gồm hai phần chính:
 
 Thời gian tải trang (Loading Time): ảnh hưởng đến trải nghiệm ban đầu và tỷ lệ chuyển đổi (conversion).
 
 Tốc độ UI (UI Speed): quan trọng cho ứng dụng nhiều tương tác như Figma, Google Sheets...
 
-📌 2. Khi nào ưu tiên loading time?
+## 2. Khi nào ưu tiên loading time?
 
 Cạnh tranh thị trường (e.g., e-commerce như Amazon).
 
@@ -63,7 +62,7 @@ Tăng tỷ lệ chuyển đổi.
 
 Số lượng người dùng lớn.
 
-📌 3. Khi nào ưu tiên UI speed?
+## 3. Khi nào ưu tiên UI speed?
 
 Ứng dụng thao tác nhiều (Figma, Canva).
 
@@ -71,7 +70,7 @@ Thời gian phiên làm việc dài.
 
 Ứng dụng B2B nơi hiệu suất ảnh hưởng trực tiếp đến hiệu quả công việc.
 
-📌 4. Các chỉ số quan trọng:
+## 4. Các chỉ số quan trọng:
 
 TTFB (Time to First Byte) < 200ms
 
@@ -81,7 +80,7 @@ LCP (Largest Contentful Paint) < 2.5s
 
 TTI (Time to Interactive) < 3.8s
 
-📌 5. Kỹ thuật tối ưu hóa loading time:
+## 5. Kỹ thuật tối ưu hóa loading time:
 
 Sử dụng CDN và cache thông minh.
 
@@ -91,7 +90,7 @@ Prefetch, Preload, và Lazy Loading.
 
 Tối ưu server-side: DB indexing, caching (Redis), autoscaling...
 
-📌 6. Kỹ thuật tối ưu UI speed:
+## 6. Kỹ thuật tối ưu UI speed:
 
 Ưu tiên GPU rendering với transform, opacity.
 
