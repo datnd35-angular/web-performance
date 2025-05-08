@@ -97,3 +97,5 @@ Tránh animation dùng width, height, gây reflow/repaint.
 Sử dụng Web Workers, chia nhỏ tác vụ JS lớn.
 
 Hạn chế thao tác DOM và tránh layout thrashing.
+
+[tối ưu hoá UI speed cho angular](https://github.com/datnd35-angular/UI-speed-angular/blob/main/README.md)
