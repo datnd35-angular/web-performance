@@ -41,8 +41,11 @@
 ## Browser support
 
 
-# Nguồn 2
 
+
+# [link video](https://www.youtube.com/watch?v=KUdqbIHn8Ic)
+
+***Thời gian tải trang (loading time) và tốc độ giao diện người dùng (UI speed). Đây là hai yếu tố chính quyết định một ứng dụng web có "nhanh" hay không.***
 
 📌 1. Web performance gồm hai phần chính:
 
