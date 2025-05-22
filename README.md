@@ -3,11 +3,11 @@
 
 ### Size
 
-***1. Tree shaking***
+***1. Tree shaking*** – loại bỏ code không dùng → giảm size bundle.
 
-***2. Tối ưu size (vd: dùng webpack)***
+***2. Tối ưu size (vd: dùng webpack)*** – loại bỏ dependency thừa, minify code.
 
-***3. Code Split***
+***3. Code Split*** – chỉ tải phần cần thiết ban đầu → tăng tốc render.
 
 ***4. Compress (nén)***
 - Gzip
@@ -20,19 +20,19 @@
 ### Wait (xử lý bất đồng bộ)
 ***1. Async + Defer***
 
-***2. Lazy loading***
+***2. Lazy loading*** – tải nội dung khi cần → giảm độ trễ UI.
 
-***3. Web worker***
+***3. Web worker*** – xử lý tính toán nặng ở background thread → tránh block UI.
 
-***4. Preload, Prefretch***
+***4. Preload, Prefretch*** - để dự đoán tài nguyên cần sớm
 
 ## II. Công cụ
 
-### Lighthouse
+### Lighthouse – chấm điểm và phân tích hiệu năng toàn diện.
 
-### Coverage 
+### Coverage (Chrome DevTools) – xem code không dùng (cho tree shaking).
 
-### Request blocking
+### Request blocking – mô phỏng mất mạng, chặn script để test fallback.
 
 ### npm
 - https://bundlephobia.com (check tree sharking và size trước khi install)
